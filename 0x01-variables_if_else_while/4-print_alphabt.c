@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
  * main - Entry point
@@ -10,18 +11,18 @@ int main(void)
 {
 char alphabet;
 
-for (alphabet = a; alphabet <= z; alphabet++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-if (alphabet == q)
+if (alphabet == 'q')
 continue;
 
-else if (alphabet == e)
+else if (alphabet == 'e')
 continue;
 
 putchar(alphabet);
 }
 
-putchar(n);
+putchar('\n');
 
 return (0);
 
