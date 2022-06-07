@@ -10,14 +10,14 @@
 
 int main(void)
 {
-0-putchar.c char text[9] = "_putchar";
-0-putchar.c int i = 0;
+	char text[9] = "_putchar";
+	int i = 0;
 
-0-putchar.c for (i = 0; i < 8; i++)
-0-putchar.c {
-0-putchar.c 0-putchar.c _putchar(text[i]);
-0-putchar.c }
-0-putchar.c _putchar(n);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
 
-0-putchar.c return (0);
+	return (0);
 }
