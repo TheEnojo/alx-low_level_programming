@@ -6,7 +6,7 @@
  * Return: Absolute value of ab
  */
 
-int _abs(int ab)
+int _abs(int);
 {
 	return (ab * ((ab > 0) - (ab < 0)));
 }
