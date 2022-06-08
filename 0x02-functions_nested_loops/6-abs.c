@@ -1,17 +1,14 @@
-#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * _abs - main point
- *
- * @c: return int
- *
- * Return: 0
+ * _abs - determine the absolute value of an integer
+ *  @i: variable to determine the absolute value of an integer
+ *  Return: i if succesful
  */
-int _abs(int c)
-{
-	 c = abs(c);
 
-	return (c);
+int _abs(int i)
+{
+	if (i < 0)
+		i *= -1;
+	return (i);
 }
