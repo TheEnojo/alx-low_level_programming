@@ -9,13 +9,13 @@
  */
 void print_line(int n)
 {
-int i;
+	int i;
 
-i = 0;
-while (i < n)
-{
-_putchar(_);
-i++;
-}
-_putchar(n);
+	i = 0;
+	while (i < n)
+	{
+		_putchar('_');
+		i++;
+	}
+	_putchar('\n');
 }
