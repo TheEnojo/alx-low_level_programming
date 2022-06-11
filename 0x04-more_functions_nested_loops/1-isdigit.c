@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _isdigit - determine if digit
- * @c: character to determine
- * Return: gives boolean
+ * _isdigit - Function entry point
+ * @c: function param
+ * Desc: checks for a digit between 0 and 9
+ *
+ * Return: 1 if successful else 0
  */
 int _isdigit(int c)
 {
-if (c >= 0 && c <= 9)
-{
-return (1);
-}
-return (0);
+	if (c > 47 && c < 58)
+		return (1);
+	return (0);
 }
