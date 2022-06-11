@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * mul - multiplier function
- * @m: int to multiply
- * @n: int to multiply
- * Return: result of the two multiplied values
+ * mul - function entry point
+ * @a: function param
+ * @b: function param
+ * Desc: multiplies two ints
+ *
+ * Return: Always 0
  */
 int mul(int a, int b)
 {
